@@ -1,5 +1,5 @@
+import { UserEntity, UserProps } from '@/users/domain/entities/user.entity'
 import { faker } from '@faker-js/faker'
-import { UserEntity, UserProps } from '../../user.entity'
 
 describe('user Entity unit test', () => {
   let sut: UserEntity
